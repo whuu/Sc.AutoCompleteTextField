@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Sc.AutoCompleteTextField</id>
+    <version>1.0.1</version>
+    <authors>Tomasz Juranek</authors>
+    <owners>Tomasz Juranek</owners>
+    <licenseUrl>https://github.com/whuu/Sc.AutoCompleteTextField/blob/master/License.txt</licenseUrl>
+    <projectUrl>https://github.com/whuu/Sc.AutoCompleteTextField</projectUrl>
+    <iconUrl>http://smartsitecore.com/images/logo-autocomplate.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      Single-line Text Field for Sitecore with Autocomplete functionality. Check project site for usage
+    </description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright (C) by Tomasz Juranek</copyright>
+    <tags>AutoCompleteTextField Sitecore TextField</tags>
+    <language>en-GB</language>
+    <dependencies>
+	</dependencies>
+  </metadata>
+  <files>
+	<file src="App_Config\Include\AutoCompleteTextField\**" target="content\App_Config\Include\AutoCompleteTextField" />
+	<file src="scripts\AutoCompleteTextField\**" target="content\scripts\AutoCompleteTextField" />
+	<file src="styles\AutoCompleteTextField\**" target="content\styles\AutoCompleteTextField" />
+  </files>
+</package>

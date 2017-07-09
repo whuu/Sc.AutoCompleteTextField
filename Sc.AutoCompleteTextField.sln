@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{3146197A-F400-46A8-AED9-B3E3AB70950C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AutoCompleteTextField", "AutoCompleteTextField", "{7F4FDB2E-0884-4D6F-AC7D-3A631B37F9B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{3BC99886-8178-417D-B159-8DB8BF666866}"
+	ProjectSection(SolutionItems) = preProject
+		nuget.config = nuget.config
+		src\Foundation\AutoCompleteTextField\code\SmartSitecore.AutoCompleteTextField.nuspec = src\Foundation\AutoCompleteTextField\code\SmartSitecore.AutoCompleteTextField.nuspec
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartSitecore.AutoCompleteTextField", "src\Foundation\AutoCompleteTextField\code\SmartSitecore.AutoCompleteTextField.csproj", "{A96EDD50-8FCE-448C-8429-17F1331E238A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A96EDD50-8FCE-448C-8429-17F1331E238A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A96EDD50-8FCE-448C-8429-17F1331E238A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A96EDD50-8FCE-448C-8429-17F1331E238A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A96EDD50-8FCE-448C-8429-17F1331E238A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7F4FDB2E-0884-4D6F-AC7D-3A631B37F9B5} = {3146197A-F400-46A8-AED9-B3E3AB70950C}
+		{A96EDD50-8FCE-448C-8429-17F1331E238A} = {7F4FDB2E-0884-4D6F-AC7D-3A631B37F9B5}
+	EndGlobalSection
+EndGlobal
