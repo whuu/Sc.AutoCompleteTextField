@@ -5,7 +5,7 @@ Sitecore Single-line Text Field with suggestions and autocomplete features
 ## Usage
 * Create class which inherits from SmartSitecore.AutoCompleteTextField.Fields.AutoCompleteTextField and implement GetServiceUrl method: 
   * It should return url to ajax web method like `"/api/sitecore/StylesAutoComplete/Load"`. 
-  * This method can be created elsewhere as WebMethod or MVC GET and should return list of string as json object, like:
+  * This method can be created elsewhere as WebMethod or MVC GET and should have `string query` input parameter and return list of string as json object, like:
     ```
     {
       "suggestions": [
