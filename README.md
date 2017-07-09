@@ -14,6 +14,6 @@ Sitecore Single-line Text Field with suggestions and autocomplete features
       ]
     }
     ```
-    For details check [jQuery-Autocomplete](https://github.com/devbridge/jQuery-Autocomplete)
+    The list will be used for autocomplete suggestions. For details check [jQuery-Autocomplete](https://github.com/devbridge/jQuery-Autocomplete)
 * Create new field type in Sitecore core database, poiting to your class and use it in your templates 
 
