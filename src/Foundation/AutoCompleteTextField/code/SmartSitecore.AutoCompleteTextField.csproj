@@ -44,13 +44,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Fields\AutoCompleteTextField.cs" />
+    <Compile Include="Fields\AutoCompleteText.cs" />
     <Compile Include="Pipelines\AddScriptsProcessor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\AutoCompleteTextField\SmartSitecore.AutoCompleteTextField.config" />
-    <None Include="packages.config" />
+    <Content Include="App_Config\Include\AutoCompleteTextField\SmartSitecore.AutoCompleteTextField.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="scripts\AutoCompleteTextField\jquery.autocomplete.min.js" />

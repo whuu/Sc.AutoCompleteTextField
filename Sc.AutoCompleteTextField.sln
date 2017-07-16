@@ -10,6 +10,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{3BC99886-8178-417D-B159-8DB8BF666866}"
 	ProjectSection(SolutionItems) = preProject
 		nuget.config = nuget.config
+		README.md = README.md
 		src\Foundation\AutoCompleteTextField\code\SmartSitecore.AutoCompleteTextField.nuspec = src\Foundation\AutoCompleteTextField\code\SmartSitecore.AutoCompleteTextField.nuspec
 	EndProjectSection
 EndProject

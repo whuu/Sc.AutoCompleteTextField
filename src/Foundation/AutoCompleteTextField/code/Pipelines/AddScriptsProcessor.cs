@@ -12,7 +12,7 @@ namespace SmartSitecore.AutoCompleteTextField.Pipelines
     {
         private const string scriptResourceTag = @"<script src=""{0}""></script>";
 
-        private const string stylesResourceTag = @"<link href=""{0}""/>";
+        private const string stylesResourceTag = @"<link href=""{0}"" rel=""stylesheet""/>";
 
         private readonly List<string> _scripts = new List<string>();
 
