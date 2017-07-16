@@ -15,5 +15,6 @@ Sitecore Single-line Text Field with suggestions and autocomplete features
     }
     ```
     For details check [jQuery-Autocomplete](https://github.com/devbridge/jQuery-Autocomplete)
-* Create new field type in Sitecore core database under `/sitecore/system/Field types`, poiting to your class and assembly, use new field in your templates. For sample usage visit [Css Picker Project](https://github.com/whuu/Sc.CssPickerField)
+* Create new field type in Sitecore core database under `/sitecore/system/Field types`, poiting to your class and assembly, use new field in your templates. 
+* For sample usage visit [Css Picker Project](https://github.com/whuu/Sc.CssPickerField)
 
