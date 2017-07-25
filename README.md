@@ -9,8 +9,8 @@ Sitecore Single-line Text Field with suggestions and autocomplete features
     ```
     {
       "suggestions": [
-        { "value": "United Kingdom",       "data": "UK" },
-        { "value": "United States",        "data": "US" }
+        { "value": "UK",       "data": "UK" },
+        { "value": "US",        "data": "US" }
       ]
     }
     ```
